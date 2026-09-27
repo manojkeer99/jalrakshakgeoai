@@ -29,7 +29,7 @@ export const Navbar: React.FC<NavbarProps> = ({
     { id: 'ai_predictive', label: 'AI Flood Predictor', icon: Cpu },
     { id: 'ndrf_command', label: 'NDRF Triage Console', icon: LifeBuoy, badge: pendingSosCount },
     { id: 'mining_audit', label: 'Mining Impact Audit', icon: AlertTriangle },
-    { id: 'sih_blueprint', label: 'SIH 26013 Blueprint', icon: Award },
+    { id: 'sih_blueprint', label: 'JalRakshak GeoAi Blueprint', icon: Award },
   ];
 
   return (
@@ -47,12 +47,12 @@ export const Navbar: React.FC<NavbarProps> = ({
                   JALRAKSHAK <span className="text-cyan-400">GEOAI</span>
                 </span>
                 <span className="px-1.5 py-0.5 bg-slate-800 border border-slate-700 rounded text-[10px] font-mono text-cyan-300">
-                  SIH 26013
+                  JalRakshak GeoAi
                 </span>
               </div>
               <div className="text-[10px] text-slate-400 font-mono flex items-center gap-1.5">
                 <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
-                <span>Sentinel-1 SAR · Cartosat DEM · Gemini 3.8</span>
+                <span>Sentinel-1 SAR · Cartosat DEM · NDMA CAP 2.1</span>
               </div>
             </div>
           </div>

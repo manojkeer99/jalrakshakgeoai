@@ -66,7 +66,7 @@ export const MiningImpactAudit: React.FC<MiningImpactAuditProps> = ({ hotspots, 
                 <AlertTriangle className="w-5 h-5" />
               </span>
               <h1 className="text-xl font-bold text-white tracking-tight">
-                Environmental & Land Mining Impact Auditor (SIH-26013 Core)
+                Environmental & Land Mining Impact Auditor
               </h1>
             </div>
             <p className="text-xs text-slate-400 mt-1">
@@ -226,7 +226,7 @@ export const MiningImpactAudit: React.FC<MiningImpactAuditProps> = ({ hotspots, 
             <div className="flex items-center justify-between pb-2 border-b border-slate-800">
               <span className="text-xs font-mono font-bold text-slate-200 uppercase tracking-wider flex items-center gap-1.5">
                 <Sparkles className="w-3.5 h-3.5 text-cyan-400" />
-                Gemini 3.8 Geomorphic Impact Synthesis
+                JalRakshak GeoAi Geomorphic Impact Synthesis
               </span>
               <span className="text-xs font-mono font-bold text-red-400">
                 Damage Score: {auditResult?.geomorphicDamageScore || 88}/100

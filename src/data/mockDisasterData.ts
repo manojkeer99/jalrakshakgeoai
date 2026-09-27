@@ -255,9 +255,9 @@ export const INITIAL_SHELTERS: EvacuationShelter[] = [
   },
 ];
 
-// Reference architecture data for SIH PS 26013
+// Reference architecture data for JalRakshak GeoAI
 export const SIH_SYSTEM_ARCHITECTURE = {
-  problemStatementId: 'SIH-26013',
+  problemStatementId: 'JALRAKSHAK-GEOAI',
   title: 'Real-time SOS & Predictive Geospatial Disaster Monitoring for Floods',
   theme: 'Disaster Management & Geospatial Intelligence',
   leadAgency: 'Ministry of Jal Shakti / NDMA / ISRO Space Applications Centre',
@@ -282,7 +282,7 @@ export const SIH_SYSTEM_ARCHITECTURE = {
     {
       name: 'Layer 3: AI Predictive & Triage Intelligence Core',
       components: [
-        { name: 'Gemini 3.8 Multi-Modal Disaster Intelligence', desc: 'Multi-variable risk synthesis, automated incident severity rating, and emergency directives generation.' },
+        { name: 'JalRakshak GeoAI Disaster Intelligence', desc: 'Multi-variable risk synthesis, automated incident severity rating, and emergency directives generation.'},
         { name: 'Dynamic SOS Triage Scoring Engine (P1/P2/P3)', desc: 'Algorithm cross-referencing victim water depth, trapped vulnerable persons (infants/elderly), and time-to-submersion.' },
         { name: 'Multi-lingual CAP Broadcast Generator', desc: 'Instant localized siren and SMS broadcast in English, Hindi, Assamese, Bengali, and Malayalam.' },
       ],

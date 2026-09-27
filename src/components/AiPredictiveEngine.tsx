@@ -121,7 +121,7 @@ export const AiPredictiveEngine: React.FC = () => {
             </h1>
           </div>
           <p className="text-xs text-slate-400 mt-1">
-            Gemini 3.8 multi-modal fusion of Sentinel-1 SAR microwave backscatter, ISRO Cartosat DEM flow accumulation, and river sand mining degradation.
+            JalRakshak GeoAi multi-modal fusion of Sentinel-1 SAR microwave backscatter, ISRO Cartosat DEM flow accumulation, and river sand mining degradation.
           </p>
         </div>
         <button
@@ -316,7 +316,7 @@ export const AiPredictiveEngine: React.FC = () => {
             <div className="flex items-center justify-between pb-2 border-b border-slate-800">
               <span className="font-bold text-xs uppercase tracking-wider text-slate-200 font-mono flex items-center gap-1.5">
                 <Sparkles className="w-3.5 h-3.5 text-cyan-400" />
-                Gemini 3.8 Multi-Modal Hydrological Synthesis
+                JalRakshak GeoAi Multi-Modal Hydrological Synthesis
               </span>
               <span className="text-[10px] font-mono text-cyan-400 bg-cyan-950/60 px-2 py-0.5 rounded border border-cyan-800/40">
                 Grounding: Sentinel SAR + Cartosat DEM

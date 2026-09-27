@@ -34,7 +34,7 @@ export const SihBlueprintView: React.FC = () => {
               </span>
               <div>
                 <h1 className="text-xl font-bold text-white tracking-tight">
-                  Smart India Hackathon (SIH) PS-26013 Master Blueprint
+                     JalRakshak GeoAi Blueprint
                 </h1>
                 <p className="text-xs text-slate-400 mt-0.5">
                   Real-time SOS & Predictive Geospatial Disaster Monitoring for Floods (JalRakshak GeoAI)
@@ -44,7 +44,7 @@ export const SihBlueprintView: React.FC = () => {
           </div>
           <div className="flex items-center gap-2">
             <span className="px-3 py-1 bg-amber-950 text-amber-300 border border-amber-800 rounded text-xs font-mono font-bold">
-              SIH Problem Statement ID: 26013
+              JalRakshak GeoAi
             </span>
           </div>
         </div>
@@ -55,7 +55,7 @@ export const SihBlueprintView: React.FC = () => {
             { id: 'architecture', label: '1. System Architecture Diagram', icon: Layers },
             { id: 'tech_stack', label: '2. Tech Stack Recommendations', icon: Database },
             { id: 'mvp_roadmap', label: '3. Step-by-Step MVP Guide', icon: Target },
-            { id: 'pitch_deck', label: '4. SIH Judge Pitch Points', icon: Award },
+            { id: 'pitch_deck', label: '4. Key Pitch Points', icon: Award },
             { id: 'future_scope', label: '5. Future Scope & Scale', icon: TrendingUp },
           ].map((tab) => {
             const Icon = tab.icon;
@@ -223,7 +223,7 @@ export const SihBlueprintView: React.FC = () => {
             <div className="p-4 bg-slate-950 border border-slate-800 rounded-xl space-y-2">
               <div className="text-xs font-bold text-rose-400 font-mono uppercase">4. AI / ML & Hydrology</div>
               <ul className="text-xs text-slate-300 space-y-1.5">
-                <li>• <strong>Gemini 3.8 Flash:</strong> Multi-modal risk synthesis & CAP translator.</li>
+                <li>• <strong>JalRakshak GeoAi:</strong> Multi-modal risk synthesis & CAP translator.</li>
                 <li>• <strong>Python GDAL / Rasterio:</strong> GeoTIFF backscatter extraction.</li>
                 <li>• <strong>HEC-RAS 2D Hydrodynamic Model:</strong> Flow velocity vector solver.</li>
                 <li>• <strong>Random Forest / U-Net:</strong> Water segmentation on SAR tiles.</li>
@@ -262,7 +262,7 @@ export const SihBlueprintView: React.FC = () => {
               Step-by-Step MVP Implementation Guide (Hackathon Execution)
             </h2>
             <p className="text-xs text-slate-400 mt-1">
-              Chronological build steps to demonstrate end-to-end functionality during the SIH evaluation.
+              Chronological build steps to demonstrate end-to-end functionality during the JalRakshak GeoAi evaluation.
             </p>
           </div>
 
@@ -313,7 +313,7 @@ export const SihBlueprintView: React.FC = () => {
                 tasks: [
                   'Construct live tactical command room with GIS map overlays and interactive layer switcher.',
                   'Add rescue boat dispatch and survivor status tracking.',
-                  'Run end-to-end live disaster drill for SIH jury: SOS Trigger -> AI Triage -> Boat Dispatch -> CAP Alert.',
+                  'Run end-to-end live disaster drill for JalRakshak GeoAI evaluation: SOS Trigger -> AI Triage -> Boat Dispatch -> CAP Alert.',
                 ],
               },
             ].map((step, idx) => (
@@ -338,13 +338,13 @@ export const SihBlueprintView: React.FC = () => {
         </div>
       )}
 
-      {/* SECTION 4: SIH JUDGE PITCH POINTS */}
+      {/* SECTION 4: KEY PITCH POINTS */}
       {activeSection === 'pitch_deck' && (
         <div className="bg-slate-900 border border-slate-800 rounded-xl p-6 shadow-xl space-y-6 animate-in fade-in duration-200">
           <div>
             <h2 className="text-base font-bold text-white flex items-center gap-2">
               <Award className="w-5 h-5 text-amber-400" />
-              Key Pitch Points for Smart India Hackathon Judges
+              Key Pitch Points for JalRakshak GeoAi
             </h2>
             <p className="text-xs text-slate-400 mt-1">
               High-impact arguments demonstrating technical novelty, societal value, and national importance.
@@ -366,7 +366,7 @@ export const SihBlueprintView: React.FC = () => {
                 <Layers className="w-3.5 h-3.5" /> 2. Unique Environmental Sand Mining Correlation
               </span>
               <p className="text-xs text-slate-300 leading-relaxed">
-                Most flood apps only look at rain. Problem Statement 26013 explicitly highlights environmental factors. JalRakshak is the first platform to prove how illegal riverbed sand mining strips natural toe-weight, causing sudden levee breaches, and issues automated legal notices under DM Act Section 24.
+              Most flood apps only look at rain. Environmental factors are also critical. JalRakshak GeoAI combines these factors to assess flood risk, including the impact of riverbed sand mining, and supports automated emergency response workflows.
               </p>
             </div>
 

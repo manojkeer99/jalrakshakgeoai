@@ -180,7 +180,7 @@ export default function App() {
                 className="p-4 bg-slate-900 hover:bg-slate-850 border border-slate-800 hover:border-red-500/50 rounded-xl text-left transition group"
               >
                 <div className="text-xs font-mono text-amber-400 font-bold flex items-center justify-between">
-                  <span>SAND MINING AUDIT (SIH-26013)</span>
+                  <span>SAND MINING AUDIT</span>
                   <span className="group-hover:translate-x-1 transition-transform">→</span>
                 </div>
                 <div className="text-sm font-semibold text-white mt-1">
@@ -235,10 +235,10 @@ export default function App() {
           <div className="flex items-center gap-3">
             <span className="font-bold text-slate-300">JALRAKSHAK GEOAI</span>
             <span>·</span>
-            <span>Smart India Hackathon (SIH) Problem Statement 26013</span>
+            <span>JalRakshak GeoAi platform</span>
           </div>
           <div>
-            Built with Sentinel-1 SAR · Cartosat DEM · Gemini 3.8 Flash · NDMA CAP 2.1
+            Built with Sentinel-1 SAR · Cartosat DEM · NDMA CAP 2.1
           </div>
         </div>
       </footer>
