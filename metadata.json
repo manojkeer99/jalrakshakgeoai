@@ -1,0 +1,6 @@
+{
+  "name": "JalRakshak GeoAI - SIH 26013 Flood & Emergency Response",
+  "description": "Smart India Hackathon Problem Statement 26013: AI & Geospatial Flood Management, Sentinel & Cartosat Satellite Analytics, Mining Impact Assessment, and Real-Time SOS Emergency Response Platform.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
